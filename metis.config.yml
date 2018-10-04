@@ -3,5 +3,9 @@ name: TC_image_class_pets
 jobs: 
   - job_id: d2ff35c2-ae9e-46b8-881c-947b9171be17
     language: python
-    name: Main
-    entrypoint: "main.py"
+    name: Load Data
+    entrypoint: "loadData.py"
+
+#  - job_id: 8e81da87-2080-47c1-8196-503344fb4a1e
+#    name: Train TC Model
+#    entrypoint: "imgClassExample.py"
