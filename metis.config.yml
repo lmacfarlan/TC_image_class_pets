@@ -1,0 +1,7 @@
+project_token: 7a0b9753f594035614f1f71e
+name: TC_image_class_pets
+jobs: 
+  - job_id: d2ff35c2-ae9e-46b8-881c-947b9171be17
+    language: python
+    name: Main
+    entrypoint: "main.py"
